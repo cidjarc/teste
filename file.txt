@@ -3,3 +3,4 @@ opa....
 file
 novo
 novoq
+novor
