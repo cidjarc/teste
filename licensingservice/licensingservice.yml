@@ -20,4 +20,4 @@ tracer:
   property: '"I AM THE DEFAULT"'
 
 example:
-  property: "I AM IN THE DEFAULT 3"
+  property: "I AM IN THE DEFAULT 4"
