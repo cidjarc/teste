@@ -21,4 +21,4 @@ tracer:
 
 example:
   property: "I AM IN THE DEFAULT 4"
-  senha: '{cipher}FKSAJDFGYOS8F7GLHAKERGFHLSAJ'
+  senha: '{cipher}b403dbd49705040cf3c56dfef7a8237715d6094214aee55414f0df3245fe5ddd'
