@@ -3,7 +3,7 @@ spring:
     driverClassName: org.postgresql.Driver
   datasource:
     username: 'postgres'
-    password: '123456'
+    password: '{cipher}977e275360e96adf307e037486e2f773a7ffd1035259b765e843f8c6f2d2d877'
     url: "jdbc:postgresql://localhost:5432/eagle_eye_local"
     platform: 'postgres'
     testWhileIdle: 'true'
