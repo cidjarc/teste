@@ -1,0 +1,24 @@
+spring:
+  database:
+    driverClassName: org.postgresql.Driver
+  datasource:
+    username: 'postgres'
+    password: '{cipher}AQAZbKoRtCgi6zbJgsJcw63Ggz4oPdj1tIt6dRLjBPsf7Qi+Qy3SaYR6nDzMv0V8ij7qmMhG3EEtAeSDACMVtoMX4dRhl8YMRNOvupoE4oi1//B7ADsrneWjBSnzl0z08pNk4rtxqORk4C5SEEGgEj4nDdFuCVkXU8rgtKL9bpO3CSI3lQ/KgBbOQE91RME59/F1I/KGAQ+O3duj4CnGWhgfcr1Uv7DJdkMDArEmfa0aZGlUauWodNoOSsiD9kQIYWpDlsPYMV8CemUvpNjMKansxcSYoCIPkDhfkg/UiqYKDXPXDN+9yc23Nuu5Jhmk5SFkaFgMSK3xQ1xJeb9zcOdAG1WuFZhmb3rxHdAU77QDsDPyD56HLmCR37NkqGSUOao='
+    url: "jdbc:postgresql://localhost:5432/eagle_eye_local"
+    platform: 'postgres'
+    testWhileIdle: 'true'
+    validationQuery: 'SELECT 1'
+  jpa:
+    show-sql: 'true'
+    #database: POSTGRESQL
+    hibernate:
+        ddl-auto: 'update'
+    properties:
+        hibernate:
+          dialect: 'org.hibernate.dialect.PostgreSQLDialect'
+tracer:
+  property: '"I AM THE DEFAULT"'
+
+example:
+  property: "I AM IN THE DEFAULT 4"
+  senha: '{cipher}AQA/OBmUIfhYL37viIWxaCnVmUbU5FlVatH7QEhRi/g2TYJFCD6lazHkvzIQLV7y4WRiuydD7SZmCcvwTt5GgVQ+p8yp9449dlI1WKAmD23HYKgqvF6RL9MlFACMchdDFs9EyS07G9KkW8LHUqt5wQyCIi7TgWYDROOKJwCUBoGdxJnUrGS35jdZUg5ppe6yO4lxqIGUJVCaCeJ9cc2QQIio9iaEFFzHQpwYqN3UXLJSuXJmsYmwBLa5CGXsWWtSTYePI9I9YdjgzZ2Pfo4NLZIqQkGw79kudwy7Yx1dUVkB2/PD7bY6Vh7CSeY0UXtQK7Sipt2/lzswdDgeRgzqwTjXRU2RQWzAUuECVKTIjXGyT649OTs9boxzkBl4tkRZ2tg='
