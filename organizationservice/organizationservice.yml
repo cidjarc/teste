@@ -1,0 +1,24 @@
+spring:
+  database:
+    driverClassName: org.postgresql.Driver
+  datasource:
+    username: 'postgres'
+    password: '{cipher}977e275360e96adf307e037486e2f773a7ffd1035259b765e843f8c6f2d2d877'
+    url: "jdbc:postgresql://localhost:5432/eagle_eye_local"
+    platform: 'postgres'
+    testWhileIdle: 'true'
+    validationQuery: 'SELECT 1'
+  jpa:
+    show-sql: 'true'
+    #database: POSTGRESQL
+    hibernate:
+        ddl-auto: 'update'
+    properties:
+        hibernate:
+          dialect: 'org.hibernate.dialect.PostgreSQLDialect'
+tracer:
+  property: '"I AM THE DEFAULT"'
+
+example:
+  property: "I AM IN THE DEFAULT 4"
+  senha: '{cipher}b403dbd49705040cf3c56dfef7a8237715d6094214aee55414f0df3245fe5ddd'
